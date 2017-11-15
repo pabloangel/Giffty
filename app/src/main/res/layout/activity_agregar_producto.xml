@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agregar Producto"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Producto"
+                android:inputType="textPersonName"
+                android:paddingTop="30dp" />
+
+            <EditText
+                android:id="@+id/edDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Descripcion"
+                android:inputType="textPersonName"
+                android:paddingTop="30dp" />
+
+            <EditText
+                android:id="@+id/edPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Precio"
+                android:inputType="textPersonName"
+                android:paddingTop="30dp" />
+
+            <EditText
+                android:id="@+id/edStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Stock"
+                android:inputType="textPersonName"
+                android:paddingTop="30dp" />
+
+            <EditText
+                android:id="@+id/edCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Categoria"
+                android:inputType="textPersonName"
+                android:paddingTop="30dp" />
+
+            <Button
+                android:id="@+id/btnFotografia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotografia" />
+
+            <Button
+                android:id="@+id/btnAgregarProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="agregarProducto"
+                android:text="Agregar" />
+
+            <ImageView
+                android:id="@+id/setPicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_account_circle_black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

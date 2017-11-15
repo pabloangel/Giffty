@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_local_mall_black"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_black"
+            android:title="Categorias" />
+        <item
+            android:id="@+id/nav_cliente"
+            android:icon="@drawable/ic_account_circle_black"
+            android:title="Clientes"
+
+
+            />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_date_range_black"
+            android:title="Fecha Especial" />
+
+
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_if_crew_2318458"
+                android:title="Nuestras Redes" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_if_01_111032"
+                android:title="Contactanos" />
+        </menu>
+    </item>
+
+</menu>
